@@ -12,8 +12,8 @@
 		B10000000000000000000003 /* WakeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000003 /* WakeSettings.swift */; };
 		B10000000000000000000004 /* MenuContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000004 /* MenuContentView.swift */; };
 		B10000000000000000000005 /* CustomDurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000005 /* CustomDurationView.swift */; };
-		B10000000000000000000007 /* CustomDurationPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000008 /* CustomDurationPanelController.swift */; };
 		B10000000000000000000006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000006 /* Assets.xcassets */; };
+		B10000000000000000000007 /* CustomDurationPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000008 /* CustomDurationPanelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +22,10 @@
 		B20000000000000000000003 /* WakeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeSettings.swift; sourceTree = "<group>"; };
 		B20000000000000000000004 /* MenuContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContentView.swift; sourceTree = "<group>"; };
 		B20000000000000000000005 /* CustomDurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDurationView.swift; sourceTree = "<group>"; };
-		B20000000000000000000008 /* CustomDurationPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDurationPanelController.swift; sourceTree = "<group>"; };
 		B20000000000000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B20000000000000000000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20000000000000000000008 /* CustomDurationPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDurationPanelController.swift; sourceTree = "<group>"; };
+		B20000000000000000000009 /* Wakeful.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wakeful.entitlements; sourceTree = "<group>"; };
 		B30000000000000000000001 /* Wakeful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wakeful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -58,6 +59,7 @@
 				B20000000000000000000008 /* CustomDurationPanelController.swift */,
 				B20000000000000000000006 /* Assets.xcassets */,
 				B20000000000000000000007 /* Info.plist */,
+				B20000000000000000000009 /* Wakeful.entitlements */,
 			);
 			path = Wakeful;
 			sourceTree = "<group>";
@@ -197,12 +199,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Wakeful/Wakeful.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W2B3H4XAV;
 				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Wakeful/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Wakeful;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -220,12 +227,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Wakeful/Wakeful.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W2B3H4XAV;
 				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Wakeful/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Wakeful;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
