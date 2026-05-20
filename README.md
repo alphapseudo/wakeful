@@ -1,4 +1,4 @@
-# Wakeful
+# Wakeful ☕
 
 **Keep your Mac awake from the menu bar**
 
