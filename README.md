@@ -26,7 +26,7 @@ Wakeful is a lightweight macOS utility that prevents your Mac from sleeping — 
 3. Open Wakeful — look for the coffee cup in your menu bar
 
 > On first launch, macOS may warn that Wakeful is from an unidentified developer.  
-> **Right-click → Open** to confirm, or sign and notarize the app before publishing releases.
+> **Right-click → Open** to confirm.
 
 ---
 
