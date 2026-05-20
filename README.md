@@ -9,7 +9,7 @@ Wakeful is a lightweight macOS utility that prevents your Mac from sleeping — 
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME/wakeful/releases/latest"><img src="https://img.shields.io/github/v/release/YOUR_USERNAME/wakeful?label=Download&sort=semver" alt="Latest release"></a>
+  <a href="https://github.com/alphapseudo/wakeful/releases/latest"><img src="https://img.shields.io/github/v/release/alphapseudo/wakeful?label=Download&sort=semver" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/macOS-13%2B-blue?logo=apple&logoColor=white" alt="macOS 13+">
   <img src="https://img.shields.io/badge/Swift-5.0-orange?logo=swift&logoColor=white" alt="Swift 5">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
@@ -19,7 +19,7 @@ Wakeful is a lightweight macOS utility that prevents your Mac from sleeping — 
 
 ## Download
 
-**[Get the latest release →](https://github.com/YOUR_USERNAME/wakeful/releases/latest)**
+**[Get the latest release →](https://github.com/alphapseudo/wakeful/releases/latest)**
 
 1. Download and unzip `Wakeful-x.x.x.zip`
 2. Drag **Wakeful.app** into **Applications**
@@ -30,9 +30,9 @@ Wakeful is a lightweight macOS utility that prevents your Mac from sleeping — 
 
 ---
 
-## Why Wakeful?
+## Features at a glance
 
-Long builds, downloads, presentations, and screen shares all need the same thing: a Mac that stays awake without fiddling with System Settings. Wakeful lives in the menu bar, starts in one click, and gets out of your way.
+Long builds, downloads, presentations, and screen shares all need the same thing: a Mac that stays awake without fiddling with System Settings. Wakeful lives in the menu bar, starts in one click, and stays out of your way.
 
 | | |
 |---|---|
@@ -69,7 +69,7 @@ When active, the icon fills in and the menu shows a live countdown.
 ## Build from source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/wakeful.git
+git clone https://github.com/alphapseudo/wakeful.git
 cd wakeful
 open Wakeful.xcodeproj
 ```
@@ -80,7 +80,7 @@ In Xcode, select the **Wakeful** scheme and press **⌘R**. The app appears in t
 
 1. Set the scheme to **Release** (Product → Scheme → Edit Scheme)
 2. **Product → Archive**
-3. Export the app and zip it for [GitHub Releases](https://github.com/YOUR_USERNAME/wakeful/releases/new)
+3. Export the app and zip it for [GitHub Releases](https://github.com/alphapseudo/wakeful/releases/new)
 
 ---
 
