@@ -21,8 +21,8 @@ Wakeful is a lightweight macOS utility that prevents your Mac from sleeping — 
 
 **[Get the latest release →](https://github.com/alphapseudo/wakeful/releases/latest)**
 
-1. Download and unzip `Wakeful-x.x.x.zip`
-2. Drag **Wakeful.app** into **Applications**
+1. Download `Wakeful-x.x.x.dmg` from [Releases](https://github.com/alphapseudo/wakeful/releases/latest)
+2. Open the DMG and drag **Wakeful** into **Applications**
 3. Open Wakeful — look for the coffee cup in your menu bar
 
 > On first launch, macOS may warn that Wakeful is from an unidentified developer.  

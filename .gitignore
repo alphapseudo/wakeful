@@ -8,6 +8,9 @@ xcuserdata/
 # macOS
 .DS_Store
 
+# Release artifacts
+dist/
+
 # Archives / exports
 *.ipa
 *.dSYM.zip
